@@ -44,12 +44,16 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
     const productName = process.env.NEXT_PUBLIC_PRODUCTNAME;
 
-    const navigation = [
-        { name: 'Homepage', href: '/app', icon: Home },
-        { name: 'Example Storage', href: '/app/storage', icon: Files },
-        { name: 'Example Table', href: '/app/table', icon: LucideListTodo },
-        { name: 'User Settings', href: '/app/user-settings', icon: User },
-    ];
+const navigation = [
+    { name: 'Homepage', href: '/app', icon: Home },
+    { name: 'Example Storage', href: '/app/storage', icon: Files },
+    { name: 'Example Table', href: '/app/table', icon: LucideListTodo },
+    { name: 'User Settings', href: '/app/user-settings', icon: User },
+
+
+    { name: 'AI Assistent', href: '/ai-assistent', icon: LucideListTodo },
+    { name: 'Training', href: '/training', icon: Files },
+];
 
     const toggleSidebar = () => setSidebarOpen(!isSidebarOpen);
 
