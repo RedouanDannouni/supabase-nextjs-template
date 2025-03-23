@@ -46,8 +46,8 @@ export default function AppLayout({ children }: { children: React.ReactNode }) {
 
 const navigation = [
   { name: 'Dashboard', href: '/app', icon: Home },
-  { name: 'AI Assistent', href: '/ai-assistent', icon: LucideListTodo },
-  { name: 'Training', href: '/training', icon: Files },
+  { name: 'AI Assistent', href: '/app/ai-assistent', icon: LucideListTodo },
+  { name: 'Training', href: '/app/training', icon: Files },
   { name: 'Instellingen', href: '/app/user-settings', icon: User },
 ];
 
